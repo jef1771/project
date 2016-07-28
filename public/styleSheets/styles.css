@@ -1,0 +1,81 @@
+﻿body{
+    background-image: url("images/dankMountain.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+div{
+    border-radius: 2em;
+    display: block;
+    width: 40%;
+    height: 20%;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#practice{
+    text-align: center;
+    opacity: 0.4;
+    color: whitesmoke;
+    font-size: 15em;
+    font-family: Arial;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label{
+    color: whitesmoke;
+    font-size: 2em;
+    font-family: Arial;
+}
+
+input{
+    width: 100%;
+    height: 4em;
+    opacity: 0.4;
+    background-color: white;
+    
+}
+
+
+#loginButton{
+    float: left;
+}
+
+#signUpButton{
+    float: right;
+}
+
+#backButton{
+    left: 85%;
+    
+}
+
+.button{
+    opacity: 0.4;
+    margin: 7%;
+    
+
+    background-color: white;
+    color: black;
+    font-size: 4em;
+    height: 25%;
+    width: 35%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: rosybrown; 
+    color: white;
+}
