@@ -26,8 +26,11 @@
 
                     <label>Password: </label>
                     <input type="text" name="Password" />
+
+                    <button class="button" type="submit">Login</button>
+                    <button id="backButton" class="button" ng-click="loginClick()">Back</button>
                 </form>
-                <button id="backButton" class="button" ng-click="loginClick()">Back</button>
+                
             </div>
 
             <div ng-show="signUp && !login">
