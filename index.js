@@ -3,8 +3,14 @@ var app = express();
 //var bodyParser = require('body-parser');
 //app.use(bodyParser.urlencoded({ extended: true }));
 
-//var x = new Mongo('host[:27017]');
-//var db = x.getDB('test');
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/test', function (err, db) {
+    if (err) {
+        throw err;
+    }
+    console.log("Connected to DataBase");
+});
 
 
 app.use(express.static('public'));
